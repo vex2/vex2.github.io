@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-03-30T03:33:44.909Z</updated>
+  <updated>2017-03-30T03:39:06.389Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/03/29/%E4%B8%BA%E6%88%91%E7%96%AF%E7%8B%82%E4%B8%BA%E6%88%91%E7%98%A6%EF%BC%8C%E8%BF%B7%E6%81%8B%E5%93%A5%E4%B8%80%E4%B8%96%E6%96%B9%E4%BC%91/"/>
     <id>http://yoursite.com/2017/03/29/为我疯狂为我瘦，迷恋哥一世方休/</id>
     <published>2017-03-29T14:15:13.000Z</published>
-    <updated>2017-03-30T03:33:44.909Z</updated>
+    <updated>2017-03-30T03:39:06.389Z</updated>
     
     <summary type="html">
     
@@ -29,9 +29,7 @@
       <category term="说说" scheme="http://yoursite.com/categories/%E8%AF%B4%E8%AF%B4/"/>
     
     
-      <category term="giggle" scheme="http://yoursite.com/tags/giggle/"/>
-    
-      <category term="bling" scheme="http://yoursite.com/tags/bling/"/>
+      <category term="-giggle -pop" scheme="http://yoursite.com/tags/giggle-pop/"/>
     
   </entry>
   
