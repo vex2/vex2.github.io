@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-18T08:04:48.746Z</updated>
+  <updated>2017-07-18T08:08:16.687Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,21 +20,23 @@
     <link href="http://yoursite.com/2017/07/18/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/"/>
     <id>http://yoursite.com/2017/07/18/策略模式/</id>
     <published>2017-07-18T08:04:48.000Z</published>
-    <updated>2017-07-18T08:04:48.746Z</updated>
+    <updated>2017-07-18T08:08:16.687Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="设计模式" scheme="http://yoursite.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
     
   </entry>
   
   <entry>
-    <title>简单工厂</title>
-    <link href="http://yoursite.com/2017/07/18/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82/"/>
-    <id>http://yoursite.com/2017/07/18/简单工厂/</id>
+    <title>简单工厂模式</title>
+    <link href="http://yoursite.com/2017/07/18/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://yoursite.com/2017/07/18/简单工厂模式/</id>
     <published>2017-07-18T07:55:27.000Z</published>
-    <updated>2017-07-18T08:05:37.026Z</updated>
+    <updated>2017-07-18T08:08:03.301Z</updated>
     
     <summary type="html">
     
