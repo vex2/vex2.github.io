@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-07-18T08:08:16.687Z</updated>
+  <updated>2017-08-16T02:42:29.220Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,70 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>D1,SAINT2</title>
+    <link href="http://yoursite.com/2017/08/08/D1,SAINT2/"/>
+    <id>http://yoursite.com/2017/08/08/D1,SAINT2/</id>
+    <published>2017-08-08T10:55:27.000Z</published>
+    <updated>2017-08-16T02:42:29.220Z</updated>
+    
+    <content type="html"><![CDATA[<p>###D1,SAINT2</p>
+<blockquote>
+<p>Intern Brief Introduction: [<strong>Delphi_E&amp;S</strong> | <strong>S.E.</strong> | <strong>150/Day</strong>]</p>
+</blockquote>
+<hr>
+<p>其实,day1 in first week 应该都差不多,熟悉一下环境,领一下设备工具,然后就是坐下来,修身养性的reading 一些documents.并且感觉这么优雅的事情我可以持续做一周(实际也确实做了一周).</p>
+<p>#####必备的Tools</p>
+<ul>
+<li><a href="https://baike.baidu.com/item/Lync/1793288?fr=aladdin" target="_blank" rel="external">lync</a>:即时通信</li>
+<li><a href="https://outlook.live.com/owa/" target="_blank" rel="external">outlook</a>: 邮件通讯</li>
+<li><a href="https://delphi.service-now.com/SelfServicePortal/" target="_blank" rel="external">desk service</a>:技术服务平台(上外网就找它)</li>
+</ul>
+<p>#####实在没事做<br>这part我实在没法讲,实习生好用不好用,用过才知道.大概都是抱着此样心态.我被两个陌生男子骚扰了….<br><em>场景一：</em></p>
+<blockquote>
+<p>Person A: 你是新来的实习生吧？</p>
+<blockquote>
+<p>Intern: 是的。</p>
+<blockquote>
+<p>Person A: 帮我寄一下快递，钱我回头给你。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><em>场景二：</em></p>
+<blockquote>
+<p>Person B(PM): 你们组新来的实习生是哪个？</p>
+<blockquote>
+<p>Person C : 这个。</p>
+<blockquote>
+<p>Person B(PM):  今天Person X 没来，你帮我去把这份文件盖章，具体流程电联Person X，你知道电话的吧。。。</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>#####D1，Ending<br>对，没错，实习生阳光快乐的一天就这样匆匆过去了。白驹过隙，时光荏苒，光阴似箭，日月如梭。是的，时光易逝，岁月易老，且行且珍惜。</p>
+<p>#####PS</p>
+<pre><code>1. 地铁口出来，下雨了，没带伞。
+2. 呈上，雨不停，淋雨行，迟到。
+3. 领laptop，发错，重领。
+4. tel 顺风快递，1小时后，没来。。
+5. 再呈上，再tel，来了，光荣加班成功。
+6. 我加班，我骄傲，我是荣耀实习生。（不然还能怎样，还要我怎样~~）
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###D1,SAINT2&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Intern Brief Introduction: [&lt;strong&gt;Delphi_E&amp;amp;S&lt;/strong&gt; | &lt;strong&gt;S.E.&lt;/strong&gt; | &lt;strong&gt;150/Day&lt;/s
+    
+    </summary>
+    
+      <category term="Intern" scheme="http://yoursite.com/categories/Intern/"/>
+    
+    
+      <category term="Intern" scheme="http://yoursite.com/tags/Intern/"/>
+    
+  </entry>
   
   <entry>
     <title>策略模式</title>
