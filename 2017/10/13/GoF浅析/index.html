@@ -1,28 +1,371 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>vex</title>
-  <subtitle>春风十里，不如你</subtitle>
-  <link href="/atom.xml" rel="self"/>
+<!doctype html>
+
+
+
   
-  <link href="http://yoursite.com/"/>
-  <updated>2017-10-13T05:06:23.909Z</updated>
-  <id>http://yoursite.com/</id>
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <author>
-    <name>vex</name>
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
     
-  </author>
-  
-  <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>GoF浅析</title>
-    <link href="http://yoursite.com/2017/10/13/GoF%E6%B5%85%E6%9E%90/"/>
-    <id>http://yoursite.com/2017/10/13/GoF浅析/</id>
-    <published>2017-10-12T16:00:00.000Z</published>
-    <updated>2017-10-13T05:06:23.909Z</updated>
     
-    <content type="html"><![CDATA[<p>GOF设计模式是一座隐性的”桥”<br>因为很多人没有注意到这点，学完Java基础语言就直接去学J2EE,有的甚至鸭子赶架，直接使用起Weblogic等具体J2EE软件，一段时间下来，发现不过如此，挺简单好用，但是你真正理解J2EE了吗？你在具体案例中的应用是否也是在延伸J2EE的思想？<br>如果你不能很好的延伸J2EE的思想，那你岂非是大炮轰蚊子，认识到J2EE不是适合所有场合的人至少是明智的，但我们更需要将J2EE用对地方，那么只有理解J2EE此类框架软件的精髓，那么你才能真正灵活应用Java解决你的问题，甚至构架出你自己企业的框架来。(我们不能总是使用别人设定好的框架，为什么不能有我们自己的框架？)<br>因此，首先你必须掌握GoF的设计模式。虽然它是隐性，但不是可以越过的。<br>关于23种设计模式的有趣见解<br>作者以轻松的语言比喻了java的23种模式，有很好的启发作用。<br>创建型模式 </p>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="gof,设计模式," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="vex" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="GOF设计模式是一座隐性的”桥”因为很多人没有注意到这点，学完Java基础语言就直接去学J2EE,有的甚至鸭子赶架，直接使用起Weblogic等具体J2EE软件，一段时间下来，发现不过如此，挺简单好用，但是你真正理解J2EE了吗？你在具体案例中的应用是否也是在延伸J2EE的思想？如果你不能很好的延伸J2EE的思想，那你岂非是大炮轰蚊子，认识到J2EE不是适合所有场合的人至少是明智的，但我们更需要将">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GoF浅析">
+<meta property="og:url" content="http://yoursite.com/2017/10/13/GoF浅析/index.html">
+<meta property="og:site_name" content="vex">
+<meta property="og:description" content="GOF设计模式是一座隐性的”桥”因为很多人没有注意到这点，学完Java基础语言就直接去学J2EE,有的甚至鸭子赶架，直接使用起Weblogic等具体J2EE软件，一段时间下来，发现不过如此，挺简单好用，但是你真正理解J2EE了吗？你在具体案例中的应用是否也是在延伸J2EE的思想？如果你不能很好的延伸J2EE的思想，那你岂非是大炮轰蚊子，认识到J2EE不是适合所有场合的人至少是明智的，但我们更需要将">
+<meta property="og:updated_time" content="2017-10-13T05:06:23.909Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GoF浅析">
+<meta name="twitter:description" content="GOF设计模式是一座隐性的”桥”因为很多人没有注意到这点，学完Java基础语言就直接去学J2EE,有的甚至鸭子赶架，直接使用起Weblogic等具体J2EE软件，一段时间下来，发现不过如此，挺简单好用，但是你真正理解J2EE了吗？你在具体案例中的应用是否也是在延伸J2EE的思想？如果你不能很好的延伸J2EE的思想，那你岂非是大炮轰蚊子，认识到J2EE不是适合所有场合的人至少是明智的，但我们更需要将">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Vex'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/10/13/GoF浅析/"/>
+
+
+
+
+
+  <title> GoF浅析 | vex </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">vex</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">春风十里，不如你</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/13/GoF浅析/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="vex">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://upload.jianshu.io/users/upload_avatars/1323715/24bb029255fa.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="vex">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                GoF浅析
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-13T00:00:00+08:00">
+                2017-10-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/设计模式/" itemprop="url" rel="index">
+                    <span itemprop="name">设计模式</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>GOF设计模式是一座隐性的”桥”<br>因为很多人没有注意到这点，学完Java基础语言就直接去学J2EE,有的甚至鸭子赶架，直接使用起Weblogic等具体J2EE软件，一段时间下来，发现不过如此，挺简单好用，但是你真正理解J2EE了吗？你在具体案例中的应用是否也是在延伸J2EE的思想？<br>如果你不能很好的延伸J2EE的思想，那你岂非是大炮轰蚊子，认识到J2EE不是适合所有场合的人至少是明智的，但我们更需要将J2EE用对地方，那么只有理解J2EE此类框架软件的精髓，那么你才能真正灵活应用Java解决你的问题，甚至构架出你自己企业的框架来。(我们不能总是使用别人设定好的框架，为什么不能有我们自己的框架？)<br>因此，首先你必须掌握GoF的设计模式。虽然它是隐性，但不是可以越过的。<br>关于23种设计模式的有趣见解<br>作者以轻松的语言比喻了java的23种模式，有很好的启发作用。<br>创建型模式 </p>
 <p>1、FACTORY—追MM少不了请吃饭了，麦当劳的鸡翅和肯德基的鸡翅都是MM爱吃的东西，虽然口味有所不同，但不管你带MM去麦当劳或肯德基，只管向服务员说“来四个鸡翅”就行了。麦当劳和肯德基就是生产鸡翅的Factory </p>
 <p>工厂模式：客户类和工厂类分开。消费者任何时候需要某种产品，只需向工厂请求即可。消费者无须修改就可以接纳新产品。缺点是当产品修改时，工厂类也要做相应的修改。如：如何创建及如何向客户端提供。 </p>
 <p>2、BUILDER—MM最爱听的就是“我爱你”这句话了，见到不同地方的MM,要能够用她们的方言跟她说这句话哦，我有一个多种语言翻译机，上面每种语言都有一个按键，见到MM我只要按对应的键，它就能够用相应的语言说出“我爱你”这句话了，国外的MM也可以轻松搞掂，这就是我的“我爱你”builder。（这一定比美军在伊拉克用的翻译机好卖） </p>
@@ -81,169 +424,367 @@
 <p>模板方法模式：模板方法模式准备一个抽象类，将部分逻辑以具体方法以及具体构造子的形式实现，然后声明一些抽象方法来迫使子类实现剩余的逻辑。不同的子类可以以不同的方式实现这些抽象方法，从而对剩余的逻辑有不同的实现。先制定一个顶级逻辑框架，而将逻辑的细节留给具体的子类去实现。 </p>
 <p>23、VISITOR—情人节到了，要给每个MM送一束鲜花和一张卡片，可是每个MM送的花都要针对她个人的特点，每张卡片也要根据个人的特点来挑，我一个人哪搞得清楚，还是找花店老板和礼品店老板做一下Visitor，让花店老板根据MM的特点选一束花，让礼品店老板也根据每个人特点选一张卡，这样就轻松多了； </p>
 <p>访问者模式：访问者模式的目的是封装一些施加于某种数据结构元素之上的操作。一旦这些操作需要修改的话，接受这个操作的数据结构可以保持不变。访问者模式适用于数据结构相对未定的系统，它把数据结构和作用于结构上的操作之间的耦合解脱开，使得操作集合可以相对自由的演化。访问者模式使得增加新的操作变的很容易，就是增加一个新的访问者类。访问者模式将有关的行为集中到一个访问者对象中，而不是分散到一个个的节点类中。当使用访问者模式时，要将尽可能多的对象浏览逻辑放在访问者类中，而不是放到它的子类中。访问者模式可以跨过几个类的等级结构访问属于不同的等级结构的成员类。</p>
-]]></content>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/gof/" rel="tag"># gof</a>
+          
+            <a href="/tags/设计模式/" rel="tag"># 设计模式</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/08/08/D1,SAINT2/" rel="next" title="D1,SAINT2">
+                <i class="fa fa-chevron-left"></i> D1,SAINT2
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
     
-    <summary type="html">
-    
-      &lt;p&gt;GOF设计模式是一座隐性的”桥”&lt;br&gt;因为很多人没有注意到这点，学完Java基础语言就直接去学J2EE,有的甚至鸭子赶架，直接使用起Weblogic等具体J2EE软件，一段时间下来，发现不过如此，挺简单好用，但是你真正理解J2EE了吗？你在具体案例中的应用是否也是在延伸J
-    
-    </summary>
-    
-      <category term="设计模式" scheme="http://yoursite.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    
-    
-      <category term="gof" scheme="http://yoursite.com/tags/gof/"/>
-    
-      <category term="设计模式" scheme="http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    
-  </entry>
+  </div>
+
+
+        </div>
+        
+          
   
-  <entry>
-    <title>D1,SAINT2</title>
-    <link href="http://yoursite.com/2017/08/08/D1,SAINT2/"/>
-    <id>http://yoursite.com/2017/08/08/D1,SAINT2/</id>
-    <published>2017-08-08T10:55:27.000Z</published>
-    <updated>2017-08-16T02:42:29.220Z</updated>
-    
-    <content type="html"><![CDATA[<p>###D1,SAINT2</p>
-<blockquote>
-<p>Intern Brief Introduction: [<strong>Delphi_E&amp;S</strong> | <strong>S.E.</strong> | <strong>150/Day</strong>]</p>
-</blockquote>
-<hr>
-<p>其实,day1 in first week 应该都差不多,熟悉一下环境,领一下设备工具,然后就是坐下来,修身养性的reading 一些documents.并且感觉这么优雅的事情我可以持续做一周(实际也确实做了一周).</p>
-<p>#####必备的Tools</p>
-<ul>
-<li><a href="https://baike.baidu.com/item/Lync/1793288?fr=aladdin" target="_blank" rel="external">lync</a>:即时通信</li>
-<li><a href="https://outlook.live.com/owa/" target="_blank" rel="external">outlook</a>: 邮件通讯</li>
-<li><a href="https://delphi.service-now.com/SelfServicePortal/" target="_blank" rel="external">desk service</a>:技术服务平台(上外网就找它)</li>
-</ul>
-<p>#####实在没事做<br>这part我实在没法讲,实习生好用不好用,用过才知道.大概都是抱着此样心态.我被两个陌生男子骚扰了….<br><em>场景一：</em></p>
-<blockquote>
-<p>Person A: 你是新来的实习生吧？</p>
-<blockquote>
-<p>Intern: 是的。</p>
-<blockquote>
-<p>Person A: 帮我寄一下快递，钱我回头给你。</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<p><em>场景二：</em></p>
-<blockquote>
-<p>Person B(PM): 你们组新来的实习生是哪个？</p>
-<blockquote>
-<p>Person C : 这个。</p>
-<blockquote>
-<p>Person B(PM):  今天Person X 没来，你帮我去把这份文件盖章，具体流程电联Person X，你知道电话的吧。。。</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<p>#####D1，Ending<br>对，没错，实习生阳光快乐的一天就这样匆匆过去了。白驹过隙，时光荏苒，光阴似箭，日月如梭。是的，时光易逝，岁月易老，且行且珍惜。</p>
-<p>#####PS</p>
-<pre><code>1. 地铁口出来，下雨了，没带伞。
-2. 呈上，雨不停，淋雨行，迟到。
-3. 领laptop，发错，重领。
-4. tel 顺风快递，1小时后，没来。。
-5. 再呈上，再tel，来了，光荣加班成功。
-6. 我加班，我骄傲，我是荣耀实习生。（不然还能怎样，还要我怎样~~）
-</code></pre>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;###D1,SAINT2&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Intern Brief Introduction: [&lt;strong&gt;Delphi_E&amp;amp;S&lt;/strong&gt; | &lt;strong&gt;S.E.&lt;/strong&gt; | &lt;strong&gt;150/Day&lt;/s
-    
-    </summary>
-    
-      <category term="Intern" scheme="http://yoursite.com/categories/Intern/"/>
-    
-    
-      <category term="Intern" scheme="http://yoursite.com/tags/Intern/"/>
-    
-  </entry>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="http://upload.jianshu.io/users/upload_avatars/1323715/24bb029255fa.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240"
+               alt="vex" />
+          <p class="site-author-name" itemprop="name">vex</p>
+           
+              <p class="site-description motion-element" itemprop="description">text mining、machine learning、NLP</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/vex2" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/u/6001940487?refer_flag=1001030102_&is_all=1" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
   
-  <entry>
-    <title>策略模式</title>
-    <link href="http://yoursite.com/2017/07/18/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/"/>
-    <id>http://yoursite.com/2017/07/18/策略模式/</id>
-    <published>2017-07-18T08:04:48.000Z</published>
-    <updated>2017-07-18T08:08:16.687Z</updated>
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-vex"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">vex</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
     
-    <summary type="html">
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
-    </summary>
-    
-      <category term="设计模式" scheme="http://yoursite.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    
-    
-  </entry>
+
+  </div>
+
   
-  <entry>
-    <title>简单工厂模式</title>
-    <link href="http://yoursite.com/2017/07/18/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F/"/>
-    <id>http://yoursite.com/2017/07/18/简单工厂模式/</id>
-    <published>2017-07-18T07:55:27.000Z</published>
-    <updated>2017-07-18T08:08:03.301Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="设计模式" scheme="http://yoursite.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
-    
-    
-      <category term="复用与复刻" scheme="http://yoursite.com/tags/%E5%A4%8D%E7%94%A8%E4%B8%8E%E5%A4%8D%E5%88%BB/"/>
-    
-      <category term="耦合" scheme="http://yoursite.com/tags/%E8%80%A6%E5%90%88/"/>
-    
-  </entry>
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
   
-  <entry>
-    <title>生活不是林黛玉，并非越忧伤越美丽</title>
-    <link href="http://yoursite.com/2017/03/29/%E7%94%9F%E6%B4%BB%E4%B8%8D%E6%98%AF%E6%9E%97%E9%BB%9B%E7%8E%89%EF%BC%8C%E5%B9%B6%E9%9D%9E%E8%B6%8A%E5%BF%A7%E4%BC%A4%E8%B6%8A%E7%BE%8E%E4%B8%BD/"/>
-    <id>http://yoursite.com/2017/03/29/生活不是林黛玉，并非越忧伤越美丽/</id>
-    <published>2017-03-29T14:15:13.000Z</published>
-    <updated>2017-05-04T06:52:45.116Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="说说" scheme="http://yoursite.com/categories/%E8%AF%B4%E8%AF%B4/"/>
-    
-    
-      <category term="giggle" scheme="http://yoursite.com/tags/giggle/"/>
-    
-      <category term="pop" scheme="http://yoursite.com/tags/pop/"/>
-    
-  </entry>
+
+
+
+
+
+
   
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2017/03/29/hello-world/"/>
-    <id>http://yoursite.com/2017/03/29/hello-world/</id>
-    <published>2017-03-29T12:34:27.382Z</published>
-    <updated>2017-03-30T04:06:48.822Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-<p>git config –global credential.helper store</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-    
-    </summary>
-    
-    
-  </entry>
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
   
-</feed>
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
