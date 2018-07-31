@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-31T13:58:39.537Z</updated>
+  <updated>2018-07-31T15:58:54.199Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,23 +17,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/07/31/hello-world/"/>
-    <id>http://yoursite.com/2018/07/31/hello-world/</id>
-    <published>2018-07-31T13:16:24.409Z</published>
-    <updated>2018-07-31T13:58:39.537Z</updated>
+    <title>Hexo迁移风波</title>
+    <link href="http://yoursite.com/2018/07/31/Hexo%E8%BF%81%E7%A7%BB%E9%A3%8E%E6%B3%A2/"/>
+    <id>http://yoursite.com/2018/07/31/Hexo迁移风波/</id>
+    <published>2018-07-30T16:00:00.000Z</published>
+    <updated>2018-07-31T15:58:54.199Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="快乐风男"><a href="#快乐风男" class="headerlink" title="快乐风男"></a>快乐风男</h2><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><p>git config –global credential.helper store</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Hexo迁移风波"><a href="#Hexo迁移风波" class="headerlink" title="Hexo迁移风波"></a>Hexo迁移风波</h2><blockquote><p>前言：之前借助hexo模板搭建了blog，而最近因工作需要，换了新的电脑，才发现使用hexo维护博客极其不方便。想提交博客却只能在下班后在家中电脑上操作，这让我倍感8小时work time的效率出了问题。因为，我觉得，<strong>生活嘛，一定需要紧致感才够过瘾</strong>。</p></blockquote><ul><li><strong>主要解决思路：建立git分支，然后利用新分支管理自己博客的hexo源文件</strong></li></ul><h4 id="1-对username-github-io仓库新建blog分支，并克隆"><a href="#1-对username-github-io仓库新建blog分支，并克隆" class="headerlink" title="1. 对username.github.io仓库新建blog分支，并克隆"></a>1. 对username.github.io仓库新建blog分支，并克隆</h4><p>​    在<code>username.github.io</code>仓库上创建一个新分支blog，并切换到该分支下。然后，修改<code>setting</code> -&gt; <code>branches</code> - &gt; <code>default branch</code> 中的默认分支为blog，<code>update</code> 更新保存操作。通过<code>git clone</code> 命令克隆到本地，进入<code>username.github.io</code> 目录。</p><p><img src="D:\docs\md\imgs\blog1.PNG" alt="blog1"></p><p><img src="D:\docs\md\imgs\blog2.PNG" alt="blog2"></p><h4 id="2-将本体hexo-源文件拷贝到-username-github-io文件目录中"><a href="#2-将本体hexo-源文件拷贝到-username-github-io文件目录中" class="headerlink" title="2. 将本体hexo 源文件拷贝到 username.github.io文件目录中"></a>2. 将本体hexo 源文件拷贝到 <code>username.github.io</code>文件目录中</h4><p>​    将源电脑中hexo 源文件全部复制拷贝到 <code>username.github.io</code> 文件目录下后，将此目录通过git提交到新建立的blog分支上。提交前需注意：<strong>将themes目录下的各个主题目录中的 .git 目录删除（如果有），因为一个git 仓库不能包含另一个主题仓库，否则会提交失败</strong>。</p><h4 id="3-切换到新的工作电脑中进行如下操作"><a href="#3-切换到新的工作电脑中进行如下操作" class="headerlink" title="3. 切换到新的工作电脑中进行如下操作"></a>3. 切换到新的工作电脑中进行如下操作</h4><ul><li>将新电脑中添加ssh key 到GitHub账户</li><li>将<code>username.github.io</code> 仓库下的blog新分支克隆到本地</li><li>切换到<code>username.github.io</code>目录下，执行以下命令</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure><blockquote><p> 如果执行命令提示错误：<strong>npm: command not found</strong> 则需要安装nodejs环境</p><p>nodejs安装 （windows下）</p><p>进入  <a href="https://nodejs.org/en" target="_blank" rel="noopener">nodejs 官网</a> 下载nodejs 进行安装，安装完成后运行 <code>node -v</code> 检查是否安装成功 </p></blockquote><ul><li>使用npm命令安装hexo</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo</span><br></pre></td></tr></table></figure><h4 id="4-至此，便可以在新电脑中对博客进行更新和维护操作了"><a href="#4-至此，便可以在新电脑中对博客进行更新和维护操作了" class="headerlink" title="4. 至此，便可以在新电脑中对博客进行更新和维护操作了"></a>4. 至此，便可以在新电脑中对博客进行更新和维护操作了</h4><ul><li>使用 Typera 工具编辑文章</li><li>依次执行 <code>git add .</code>、<code>git commit -m &quot;back to manual blog&quot;</code>、<code>git push</code> 命令</li><li>最后依次执行 <code>hexo clean</code>、 <code>hexo d -g</code> 指令完成博客的部署和发布，此时可以发现，对博客的修改已经同步更新到了master分支，并且两个分支互不干扰。</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;快乐风男&quot;&gt;&lt;a href=&quot;#快乐风男&quot; class=&quot;headerlink&quot; title=&quot;快乐风男&quot;&gt;&lt;/a&gt;快乐风男&lt;/h2&gt;&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; ti
+        &lt;h2 id=&quot;Hexo迁移风波&quot;&gt;&lt;a href=&quot;#Hexo迁移风波&quot; class=&quot;headerlink&quot; title=&quot;Hexo迁移风波&quot;&gt;&lt;/a&gt;Hexo迁移风波&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;前言：之前借助hexo模板搭建了blog，而最近因工作需要，换了新
       
     
     </summary>
     
+      <category term="Geek" scheme="http://yoursite.com/categories/Geek/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
   </entry>
   
